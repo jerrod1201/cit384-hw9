@@ -3,7 +3,6 @@
 ## Live Site
 
 - GitHub Pages: https://jerrod1201.github.io/cit384-hw9/
-- GitHub Repository: https://github.com/jerrod1201/cit384-hw9
 
 ## Screenshot
 
