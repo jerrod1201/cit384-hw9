@@ -50,17 +50,8 @@ This project helped me practice connecting JavaScript to the browser and using b
 
 ## Sources
 
-These are the MDN Web Docs references used for the JavaScript features in this project:
+These were the most important MDN references used for this project:
 
-- Date: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-- String.prototype.padStart(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
-- Number: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-- Number.isNaN(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN
-- Number.isInteger(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
-- Number.parseFloat(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat
-- Number.prototype.toFixed(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
-- Document.getElementById(): https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
-- Document.createElement(): https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
-- EventTarget.addEventListener(): https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-- Node.textContent: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
-- Element.innerHTML: https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+- Date and Date methods: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+- Number and Number conversions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+- Event handling and DOM updates: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
