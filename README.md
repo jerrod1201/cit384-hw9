@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-![JavaScript Mini Demo Screenshot](./screenshot.png)
+![JavaScript Mini Demo Screenshot](./images/Screenshot_3.png)
 
 ## Built-in Objects and Methods Used
 
