@@ -1,0 +1,142 @@
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --panel-alt: #eef5ff;
+  --accent: #4f6cff;
+  --accent-soft: #dfe8ff;
+  --text: #1d2433;
+  --muted: #5d6880;
+  --success: #2d9d78;
+  --warning: #d97706;
+  --shadow: rgba(31, 41, 55, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+  color: var(--text);
+}
+
+.page-shell {
+  width: min(900px, calc(100% - 2rem));
+  margin: 2rem auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 1rem 0.5rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+h1 {
+  margin: 0.75rem 0 0;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+}
+
+h2 {
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid rgba(79, 108, 255, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 16px 40px var(--shadow);
+  padding: 1.5rem;
+}
+
+.result-text,
+.stacked-results p,
+#priceResults p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.stacked-results,
+#priceResults {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.calculator-box {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  background: var(--panel-alt);
+  border-radius: 14px;
+  padding: 1.2rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  border: 1px solid #ccd7ea;
+  border-radius: 10px;
+  padding: 0.8rem 0.9rem;
+  font-size: 1rem;
+  background: #fff;
+  color: var(--text);
+}
+
+button {
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  background: linear-gradient(135deg, var(--accent) 0%, #6d8dff 100%);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 12px 24px rgba(79, 108, 255, 0.25);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.success {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.warning {
+  color: var(--warning);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .page-shell {
+    width: min(92vw, 100%);
+    margin-top: 1rem;
+  }
+
+  .panel {
+    padding: 1.1rem;
+  }
+}

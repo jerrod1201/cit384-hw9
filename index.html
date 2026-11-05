@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Mini Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">CIT 384 Homework 9</p>
+        <h1>JavaScript Mini Demo</h1>
+      </header>
+
+      <section class="panel"><!-- Date Display -->
+        <h2>Date Display</h2>
+        <p id="todayDate" class="result-text"></p>
+      </section>
+
+      <section class="panel"><!-- Number Conversion Tests -->
+        <h2>Number Conversion Tests</h2>
+        <div id="numberResults" class="stacked-results"></div>
+      </section>
+
+      <section class="panel"><!-- Math and Number Formatting -->
+        <h2>Math and Number Formatting</h2>
+        <div class="calculator-box">
+          <label for="itemPrice">Item Price</label>
+          <input id="itemPrice" type="number" step="0.01" value="42.99" />
+
+          <label for="taxRate">Tax Rate (%)</label>
+          <input id="taxRate" type="number" step="0.01" value="7.5" />
+
+          <label for="shippingCost">Shipping Cost</label>
+          <input id="shippingCost" type="number" step="0.01" value="8.5" />
+
+          <button id="calculateButton" type="button">Calculate Total</button>
+        </div>
+
+        <div id="priceResults" class="stacked-results"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
